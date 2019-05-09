@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    background-color: #FFFDFC;
+    height: 100vh;
+}
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #424249;
+    margin: 0;
+    height: 15vh;
+}
+svg {
+    height: 10vh;
+    width: 10vh;
+}
+
+.navleft {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+.navleft h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: 'Righteous', cursive; 
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+    font-size: 4vw;
+}
+
+.navright {
+    margin-right: 2vw;
+    margin-top: 1vh;
+    font-weight: 100;
+}
+
+.navright p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.maincontent {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.monthly {
+    background-color: #EFE8E1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    border-radius: 5px;
+    height: auto;
+}
+
+.monthlywidth {
+    margin: 2vw;
+}
+
+.monthlywidth > p {
+    color: #1b1b20;
+    font-family: 'Righteous', cursive; 
+    font-size: 2vw;
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+.monthlynums1 {
+    flex-direction: row;
+}
+.nums2 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    /* justify-content: space-between; */
+}
+
+.monthlynums1 li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    margin-bottom: 0.2vh;
+    
+}
+
+.monthlynums1 svg {
+    margin-top: 2vh;
+    height: 4vh;
+    width: 4vw;
+}
+
+.trash {
+    display: flex;
+    flex-direction: column; 
+    background: url(./assets/trash_can.svg);
+    height: 4vh;
+    width: 4vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .trash svg {
+    height: 4vh;
+    width: 4vw;
+} */
+
+.trash:hover {
+    cursor: pointer;
+}
+
+.addBills {
+    background-color: #54D2E5;
+    border-radius: 5px;
+    width: 30vw;
+    height: 38vh;
+}
+
+.wideboi {
+    margin: 2vw;
+    height: 100%;
+}
+
+.wideboi > p {
+    font-family: 'Righteous', cursive;
+    font-size: 2vw; 
+    margin: 0;
+}
+
+input {
+    height: 5vh;
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 2vh;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input p {
+    font-family: 'Robot', sans-serif;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+
+
+button {
+    color: #FFFDFC;
+    background-color: #424249;
+    border: 0;
+    border-radius: 3px;
+    width: 100%;
+    height: 6vh;
+    margin-top: 1.5vh;
+    margin-bottom: 3vh;
+    font-family: 'Righteous', cursive;
+    font-size: 2vw;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.spanfix {
+    margin-left: 5vw;
+}
+
+.myUl {
+    display: flex;
+    flex-direction: row;
+}
